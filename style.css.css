@@ -1,0 +1,721 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:slnt,wght@-10..0,100..900&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.container {
+   padding: 0 50px;
+   margin: 0 auto;
+}
+
+/* Header Section */
+.navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 15px;
+   position: sticky;
+   top: 0px;
+   background-color: #ffff;
+   box-shadow: 0PX 20PX 46PX 3PX rgba(0, 0, 0, 0, 33);
+   z-index: 10;
+}
+
+.nav-list ul {
+   display: flex;
+   list-style: none;
+
+}
+
+.nav-list ul li {
+   margin: 0 20px;
+   font-family: "Inter", sans-serif;
+   font-size: 14px;
+}
+
+.login-btn {
+   border: none;
+   background-color: #ffff;
+   font-family: "Inter", sans-serif;
+   font-size: 16px;
+   font-weight: bold;
+}
+
+.signup-btn {
+   border: none;
+   background-color: #E94339;
+   color: #ffff;
+   border-radius: 50px;
+   padding: 10px 20px;
+   font-family: "Inter", sans-serif;
+}
+
+/*End Header Section */
+
+/* Hero Section */
+.hero-section {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 35px 0;
+}
+
+.hero-img {
+   width: 400px;
+   height: auto;
+}
+
+.hero-sectionP h1 {
+   font-size: 55px;
+   font-family: "Inter", sans-serif;
+   font-weight: bold;
+}
+
+.hero-sectionP p {
+   font-family: "Inter", sans-serif;
+   font-size: 18px;
+}
+
+.input {
+   position: relative;
+   margin: 20px 0;
+}
+
+.input input {
+   width: 460px;
+   height: 36px;
+   border-radius: 50px;
+   border: none;
+   background-color: #f6f6f6;
+}
+
+.input input[type="text"] {
+   font-size: 17px;
+   padding: 0 10px;
+
+}
+
+.input-input-:focus {
+   outline: none;
+}
+
+.input-btn {
+   position: absolute;
+   left: 78%;
+   top: 0%;
+   background-color: #E94339;
+   border: none;
+   color: #ffff;
+   border-radius: 50px;
+   padding: 10px 20px;
+}
+
+.buttens {
+   display: flex;
+}
+
+.app-store {
+   display: flex;
+   align-items: center;
+   border: none;
+   padding: 13px;
+   border-radius: 8px;
+   margin: 0px 20px 0px 0px;
+}
+
+.app-store-span {
+   margin-right: 16px;
+   font-weight: bold;
+   font-size: 20px;
+   font-family: "Inter", sans-serif;
+}
+
+.download-app {
+   margin-left: 8px;
+}
+
+.google-play {
+   display: flex;
+   align-items: center;
+   border: none;
+   padding: 13px;
+   border-radius: 8px;
+}
+
+.google-play-span {
+   margin-right: 16px;
+   font-weight: bold;
+   font-size: 20px;
+   font-family: "Inter", sans-serif;
+}
+
+.google-play-get {
+   margin-left: 8px;
+}
+
+/* end hero section */
+
+/* Order Dishes */
+.dishes-count {
+   text-align: center;
+   margin: 45px 0px 15px;
+}
+
+.dishes-count h1 {
+   font-family: "Inter", sans-serif;
+   font-size: 42px;
+   font-weight: bold;
+}
+
+.dishes-count h1 span {
+   color: #ff5331;
+}
+
+.dishes-count p {
+   font-size: 18px;
+   font-family: "Inter", sans-serif;
+   color: #191720;
+}
+
+/*End Order Dishes*/
+
+/* Cards Section */
+.food-cards {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.cards {
+   display: flex;
+}
+
+.card-1-pizza {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   background-color: #fafafa;
+   border-radius: 30px;
+   padding: 50px;
+   width: 80px;
+   height: 115px;
+   margin: 0px 15px;
+}
+
+.card-1-pizza span {
+   text-align: center;
+   margin: 15px 0px;
+   font-size: 24px;
+   font-family: "Inter", sans-serif;
+}
+
+.card-1-img {
+   background-color: #ffff;
+   border-radius: 50px;
+   padding: 15px;
+}
+
+.card-2-burger {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   background-color: #fafafa;
+   border-radius: 30px;
+   padding: 50px;
+   width: 80px;
+   height: 115px;
+   margin: 0px 15px;
+}
+
+.card-2-burger span {
+   text-align: center;
+   margin: 15px 0px;
+   font-size: 24px;
+   font-family: "Inter", sans-serif;
+}
+
+.card-2-img {
+   background-color: #ffff;
+   border-radius: 50px;
+   padding: 15px;
+}
+
+.card-3-sushi {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   background-color: #fafafa;
+   border-radius: 30px;
+   padding: 50px;
+   width: 80px;
+   height: 115px;
+   margin: 0px 15px;
+}
+
+.card-3-sushi span {
+   text-align: center;
+   margin: 15px 0px;
+   font-size: 24px;
+   font-family: "Inter", sans-serif;
+}
+
+.card-3-img {
+   background-color: #ffff;
+   border-radius: 50px;
+   padding: 15px;
+}
+
+.delivery-bike {
+   background-color: #fafafa;
+   border-radius: 30px;
+   padding: 12px;
+   ;
+}
+
+.delivery-bike h3 {
+   font-size: 20;
+   font-family: "Inter", sans-serif;
+}
+
+.delivery-bike h3 .deals {
+   color: #ff5331;
+}
+
+.delivery-bike h3 .delivery {
+   color: #009b00;
+}
+
+.delivery-bike {
+   justify-content: flex-end;
+   padding-top: 15;
+}
+
+.cards-2 {
+   display: flex;
+   margin: 25px 0px;
+}
+
+.card-para p {
+   margin-top: 30px;
+   font-size: 16px;
+   font-family: "Inter", sans-serif;
+}
+
+.cards-div-2 {
+   display: flex;
+}
+
+
+.card-4-pasta {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   background-color: #fafafa;
+   border-radius: 30px;
+   padding: 50px;
+   width: 80px;
+   height: 115px;
+   margin: 0px 15px;
+}
+
+.card-4-pasta span {
+   text-align: center;
+   margin: 15px 0px;
+   font-size: 24px;
+   font-family: "Inter", sans-serif;
+}
+
+.card-4-img {
+   background-color: #ffff;
+   border-radius: 50px;
+   padding: 15px;
+}
+
+.card-5-salad {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   background-color: #fafafa;
+   border-radius: 30px;
+   padding: 50px;
+   width: 80px;
+   height: 115px;
+   margin: 0px 15px;
+}
+
+.card-5-salad span {
+   text-align: center;
+   margin: 15px 0px;
+   font-size: 24px;
+   font-family: "Inter", sans-serif;
+}
+
+.card-5-img {
+   background-color: #ffff;
+   border-radius: 50px;
+   padding: 15px;
+}
+
+.card-6-desert {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   background-color: #fafafa;
+   border-radius: 30px;
+   padding: 50px;
+   width: 80px;
+   height: 115px;
+   margin: 0px 15px;
+}
+
+.card-6-desert span {
+   text-align: center;
+   margin: 15px 0px;
+   font-size: 24px;
+   font-family: "Inter", sans-serif;
+}
+
+.card-6-img {
+   background-color: #ffff;
+   border-radius: 50px;
+   padding: 15px;
+}
+
+/*End Cards Section */
+
+/* How to order */
+
+.h1-order {
+   text-align: center;
+   font-family: "Inter", sans-serif;
+   font-size: 25px;
+}
+
+
+.perant-div{
+   display: flex;
+   justify-content: space-between;
+}
+.cards{
+   display: flex;
+   /* margin-left: 100px; */
+   justify-content: start;
+}
+
+.card-span-1{
+   font-weight: bold;
+   font-size: 30px;
+   font-family: "Inter", sans-serif;
+   color: #ff5331;
+}
+
+.location-card{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   background-color: #fafafa;
+   border-radius: 30px;
+   padding: 50px;
+   width: 80px;
+   height: 115px;
+   margin: 0px 15px;
+}
+
+.location-card:hover{
+   cursor: pointer;
+   scale: 1.1;
+}
+
+.location-card span{
+   text-align: center;
+   margin: 15px 0px;
+   font-size: 17px;
+   font-family: "Inter", sans-serif;
+}
+
+.card-img-location{
+   background-color: #ffff;
+   border-radius: 50px;
+   padding: 15px;
+}
+
+
+.card-span-2{
+   font-weight: bold;
+   font-size: 30px;
+   font-family: "Inter", sans-serif;
+   color: #ff5331;
+}
+
+.what-eat{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   background-color: #fafafa;
+   border-radius: 30px;
+   padding: 50px;
+   width: 80px;
+   height: 115px;
+   margin: 0px 15px;
+}
+
+.what-eat:hover{
+   cursor:pointer;
+   scale: 1.1;
+}
+
+.what-eat span{
+   text-align: center;
+   margin: 15px 0px;
+   font-size: 17px;
+   font-family: "Inter", sans-serif;
+}
+
+.card-img-what-eat{
+   background-color: #ffff;
+   border-radius: 50px;
+   padding: 15px;
+}
+
+
+.card-span-3{
+   font-weight: bold;
+   font-size: 30px;
+   font-family: "Inter", sans-serif;
+   color: #ff5331;
+}
+
+.first-order{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   background-color: #fafafa;
+   border-radius: 30px;
+   padding: 50px;
+   width: 80px;
+   height: 115px;
+   margin: 0px 15px;
+}
+
+.first-order:hover{
+   cursor:pointer;
+   scale: 1.1;
+}
+
+.first-order span{
+   text-align: center;
+   margin: 15px 0px;
+   font-size: 17px;
+   font-family: "Inter", sans-serif;
+}
+
+.card-img-order{
+   background-color: #ffff;
+   border-radius: 50px;
+   padding: 15px;
+}
+
+
+.card-span-4{
+   font-weight: bold;
+   font-size: 30px;
+   font-family: "Inter", sans-serif;
+   color: #ff5331;
+}
+
+.in-the-way{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   background-color: #fafafa;
+   border-radius: 30px;
+   padding: 50px;
+   width: 80px;
+   height: 115px;
+   margin: 0px 15px;
+}
+
+.in-the-way:hover{
+   cursor:pointer;
+   scale: 1.1;
+}
+
+.in-the-way span{
+   text-align: center;
+   margin: 15px 0px;
+   font-size: 17px;
+   font-family: "Inter", sans-serif;
+}
+
+.card-img-way{
+   background-color: #ffff;
+   border-radius: 50px;
+   padding: 15px;
+}
+
+/* End How to order */
+
+/* feed back */
+
+.feedback{
+   display: flex;
+   justify-content: center;
+   font-family:"Inter", sans-serif ;
+   margin-top: 40px;
+}
+
+.para{
+   display: flex;
+   justify-content: center;
+   font-family: "Inter", sans-serif;
+   margin-top: 40px;
+   text-align: center;
+}
+
+
+.semi-img{
+   display: flex;
+   margin-left: 600px;
+   margin-top: 40px;
+   width: 70px;
+} 
+
+.para-2{
+   display: flex;
+   justify-content: center;
+   font-family: "Inter", sans-serif;
+   margin-top: 40px;
+   text-align: center;
+}
+
+.h3{
+   display: flex;
+   margin-left: 500px;
+   margin-top: 40px;
+   font-family: "Inter", sans-serif;
+}
+
+.h4{
+   display: flex;
+   margin-left: 500px;
+   font-family: "Inter", sans-serif;
+   text-align: center;
+}
+/* end feed back */
+
+/* Footer */
+.footer-div{
+   display: flex;
+}
+
+.footer-div h1{
+   font-family: "Inter", sans-serif;
+   margin-top: 55px;
+}
+
+.footer-div p{
+   font-family: "Inter", sans-serif;
+   font-size: 12px;
+   margin-top: 15px;
+}
+
+.footer-div input{
+   width: 360px;
+   height: 31px;
+   border-radius: 50px;
+   border: none;
+   background-color: #f6f6f6;
+   margin-top: 60px;
+margin-left: 200px;
+}
+
+.footer-div input[type="text"]{
+   font-size: 17px;
+   padding: 0 10px;
+}
+
+.footer-div-:focus {
+   outline: none;
+}
+
+.footer-input-btn {
+   position: absolute;
+   left: 77%;
+   top: 1874px;
+   background-color: #E94339;
+   border: none;
+   color: #ffff;
+   border-radius: 50px;
+   padding: 8px 20px;
+}
+/*End Footer */
+
+/* links */
+.info{
+   display: flex;
+   background-color: #0000;
+   margin-top: 50px;
+}
+
+.pizza-img{
+height: 20px;
+width: 30px;
+}
+
+.buttons{
+display: flex;
+margin-top: 70px;
+}
+    .app-store {
+      display: flex;
+      align-items: center;
+      border: none;
+       padding: 13px; 
+      border-radius: 8px;
+      margin: 0px 20px 0px 0px;
+   }
+   
+   .app-store-span {
+      margin-right: 16px;
+      font-weight: bold;
+      font-size: 20px;
+      font-family: "Inter", sans-serif;
+   }
+   
+   .download-app {
+      margin-left: 8px;
+   }
+   
+   .google-play {
+      display: flex;
+      align-items: center;
+      border: none;
+      padding: 13px;
+      border-radius: 8px;
+   }
+   
+   .google-play-span {
+      margin-right: 16px;
+      font-weight: bold;
+      font-size: 20px;
+      font-family: "Inter", sans-serif;
+   }
+   
+   .google-play-get {
+      margin-left: 8px;
+   } 
+
+   .footer-links{
+      display: flex;
+   }
+
+   .footer-links li{
+      list-style: none;
+      margin-left: 100px;
+      font-family: "Inter", sans-serif;
+      font-size: 22px;
+   }
+
+   
+/*End links */
